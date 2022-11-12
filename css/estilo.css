@@ -35,6 +35,9 @@
   background-color: rgb(202, 24, 212);
   color: white;
   text-align: center;
+  border: 2px;
+  border-style: solid;
+  border-color: black;
 }
 
 .btn--enviar {
@@ -379,8 +382,8 @@ iframe {
     height: auto;
   }
   iframe {
-    width: 500px;
-    height: 480px;
+    width: auto;
+    height: auto;
   }
   #grilla {
     height: 3000px;
@@ -389,10 +392,6 @@ iframe {
     grid-template-areas: "foto1" "foto2" "foto3" "foto4" "foto5" "foto6";
   }
   section {
-    height: 500px;
-  }
-  iframe {
-    width: auto;
     height: auto;
   }
   footer p {

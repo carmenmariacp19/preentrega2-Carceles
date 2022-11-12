@@ -10,8 +10,10 @@
     @include estilo_btn(150px, 80px, 20px);
 }
 .btn--inicio{
-
     @include estilo_btn(85px, 40px, 15px);
+    border: 2px;
+    border-style:solid;
+    border-color: black;
 }
 
 .btn--enviar {

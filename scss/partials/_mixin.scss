@@ -1,0 +1,19 @@
+@mixin estilo_btn ($ancho, $alto, $tamano ){
+    width: $ancho;
+    height: $alto;
+    font-size: $tamano;
+    background-color: rgb(202, 24, 212);
+    color:white;
+    text-align: center;
+}
+.btn--unete{
+    @include estilo_btn(150px, 80px, 20px);
+}
+.btn--inicio{
+
+    @include estilo_btn(85px, 40px, 15px);
+}
+
+.btn--enviar {
+    @include estilo_btn(75px, 35px, 15px);
+}

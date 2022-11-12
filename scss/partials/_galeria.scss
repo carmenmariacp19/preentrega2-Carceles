@@ -1,0 +1,14 @@
+#grilla{
+    display:grid;
+    height: auto;
+    grid-template-rows: 250px 250px;
+    grid-template-columns: 25% 25% 25% ;
+    background-color: rgb(145, 88, 231);
+    grid-template-areas:"foto1 foto2 foto3"
+                         "foto4 foto5 foto6"; 
+     column-gap: 20px;
+     justify-items: center;
+     align-items: center;
+    justify-content: center;
+    align-content: space-around;
+    }

@@ -315,4 +315,16 @@ footer p{
         grid-template-areas: "foto1 foto2 foto3"
                              "foto4 foto5 foto6"
  }
+
+ #contenedor{
+    position: relative;
+    height: auto;
+    padding-bottom: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    background-color: $color_fondo_principal
+    }
+    
 }

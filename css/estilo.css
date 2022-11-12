@@ -401,4 +401,22 @@ iframe {
     grid-template-rows: 400px 400px;
     grid-template-areas: "foto1 foto2 foto3" "foto4 foto5 foto6";
   }
+  #contenedor {
+    position: relative;
+    height: auto;
+    padding-bottom: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    background-color: rgb(145, 88, 231);
+  }
 }/*# sourceMappingURL=estilo.css.map */

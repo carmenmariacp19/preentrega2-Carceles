@@ -265,7 +265,7 @@ h4 {
 }
 
 td {
-  font-size: 30px;
+  font-size: 20px;
   border: black;
   text-align: center;
   -webkit-box-pack: space-evenly;
@@ -274,7 +274,7 @@ td {
 }
 
 th {
-  font-size: 40px;
+  font-size: 30px;
   border: 10px;
   color: black;
 }
@@ -373,6 +373,9 @@ iframe {
             align-items: center;
   }
   #contenedor {
+    height: auto;
+  }
+  table {
     height: auto;
   }
   #grilla {

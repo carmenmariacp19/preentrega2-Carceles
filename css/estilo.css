@@ -378,6 +378,10 @@ iframe {
   table {
     height: auto;
   }
+  iframe {
+    width: 500px;
+    height: 480px;
+  }
   #grilla {
     height: 3000px;
     grid-template-columns: 90%;
@@ -388,8 +392,8 @@ iframe {
     height: 500px;
   }
   iframe {
-    width: 500px;
-    height: 480px;
+    width: auto;
+    height: auto;
   }
   footer p {
     color: white;
